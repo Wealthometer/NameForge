@@ -12,7 +12,7 @@ Any changes you make to your deployed app will be automatically pushed to this r
 
 ## Deployment
 
-Your project is live at:
+<!-- Your project is live at:
 
 <!-- **[https://vercel.com/miladicodes-projects/v0-saa-s-name-generator](https://vercel.com/miladicodes-projects/v0-saa-s-name-generator)** -->
 
@@ -27,4 +27,4 @@ Continue building your app on:
 1. Create and modify your project using [](https://v0.app)
 2. Deploy your chats from the v0 interface
 3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+4. Vercel deploys the latest version from this repository -->
