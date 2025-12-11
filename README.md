@@ -9,22 +9,22 @@
 
 This repository will stay in sync with your deployed chats on [](https://v0.app).
 Any changes you make to your deployed app will be automatically pushed to this repository from [](https://v0.app).
-
-## Deployment
+<!--  -->
+<!-- ## Deployment -->
 
 <!-- Your project is live at:
 
 <!-- **[https://vercel.com/miladicodes-projects/v0-saa-s-name-generator](https://vercel.com/miladicodes-projects/v0-saa-s-name-generator)** -->
     
-## Build your app
+<!-- ## Build your app
 
-Continue building your app on:
+Continue building your app on: -->
 
 <!-- **[https://v0.app/chat/projects/0vv1NDmxzQf](https://v0.app/chat/projects/0vv1NDmxzQf)** -->
 
-## How It Works
+<!-- ## How It Works
 
 1. Create and modify your project using [](https://v0.app)
 2. Deploy your chats from the v0 interface
 3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository -->
+4. Vercel deploys the latest version from this repository --> -->
