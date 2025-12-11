@@ -1,0 +1,103 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --background: #000000;
+  --foreground: #f6f6f6;
+  --card: #021b23;
+  --card-foreground: #f6f6f6;
+  --popover: #021b23;
+  --popover-foreground: #f6f6f6;
+  --primary: #0ab6bc;
+  --primary-foreground: #000000;
+  --secondary: #045c43;
+  --secondary-foreground: #f6f6f6;
+  --muted: #021b23;
+  --muted-foreground: #9ca3af;
+  --accent: #0ab6bc;
+  --accent-foreground: #000000;
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.577 0.245 27.325);
+  --border: #1f2937;
+  --input: #1f2937;
+  --ring: #0ab6bc;
+  --chart-1: #0ab6bc;
+  --chart-2: #045c43;
+  --chart-3: #f6f6f6;
+  --chart-4: #021b23;
+  --chart-5: #9ca3af;
+  --radius: 0.75rem;
+  --sidebar: #021b23;
+  --sidebar-foreground: #f6f6f6;
+  --sidebar-primary: #0ab6bc;
+  --sidebar-primary-foreground: #000000;
+  --sidebar-accent: #045c43;
+  --sidebar-accent-foreground: #f6f6f6;
+  --sidebar-border: #1f2937;
+  --sidebar-ring: #0ab6bc;
+}
+
+@theme inline {
+  --font-sans: "Geist", "Geist Fallback";
+  --font-mono: "Geist Mono", "Geist Mono Fallback";
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom spotlight gradient effects */
+.spotlight-teal {
+  background: radial-gradient(circle at center, rgba(10, 182, 188, 0.15) 0%, transparent 70%);
+}
+
+.spotlight-green {
+  background: radial-gradient(circle at center, rgba(4, 92, 67, 0.2) 0%, transparent 70%);
+}
+
+.spotlight-radial {
+  background: radial-gradient(ellipse at center, rgba(10, 182, 188, 0.1) 0%, transparent 60%);
+}
